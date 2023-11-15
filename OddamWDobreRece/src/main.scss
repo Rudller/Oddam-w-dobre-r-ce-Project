@@ -1,0 +1,11 @@
+@import 'scss/reset.scss';
+
+@import 'scss/settings/fonts';
+@import 'scss/settings/colors';
+
+@import 'scss/Home/homeHeader';
+@import 'scss/Home/homeMainSection';
+
+body {
+  font-family: $font-base;
+}

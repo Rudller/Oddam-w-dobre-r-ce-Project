@@ -1,0 +1,48 @@
+.hero__container {
+    display: flex;
+    .img__container {
+        transform: translate(-35%, -20%);
+        img {
+            width: 100%;
+        }
+    }
+    
+    .hero__side__panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transform: translate(-35%, -10%);
+
+        h1 {
+            color: $grey;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        img {
+            margin-top: 20px;
+            width: 50%;
+        }
+
+        .btnHolder {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            .elementBtn {
+                text-decoration: none;
+                text-align: center;
+                color: $grey;
+                font-size: 1.5rem;
+                font-weight: 300;
+
+                width: 10rem;
+                
+                padding: 20px 20px;
+
+                border: 1px solid $darkerGray;
+            }
+        }
+    }
+}
