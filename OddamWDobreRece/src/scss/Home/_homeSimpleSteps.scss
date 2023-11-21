@@ -1,0 +1,83 @@
+.simple__steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0;
+
+    color: $darkerGray;
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+        margin: 25px auto;
+
+        width: 100%;
+
+        background-color: rgb(240, 240, 240);
+
+        .simple__steps__element {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 140px;
+
+            padding: 50px 0;
+            
+            img {
+                width: 75px;
+            }
+
+            h2 {
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            h3 {
+                text-align: center;
+                transform: translate(0, -50%);
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+        .elementBtn {
+                text-decoration: none;
+                text-align: center;
+                color: $grey;
+                font-size: 1.5rem;
+                font-weight: 300;
+
+                width: 10rem;
+                
+                padding: 20px 20px;
+
+                border: 1px solid $darkerGray;
+            }
+    }
+    .elementBtn {
+        text-decoration: none;
+        text-align: center;
+        color: $grey;
+        font-size: 1.5rem;
+        font-weight: 300;
+
+        width: 10rem;
+        
+        padding: 20px 20px;
+
+        border: 1px solid $darkerGray;
+    }
+}

@@ -5,7 +5,13 @@
 
 @import 'scss/Home/homeHeader';
 @import 'scss/Home/homeMainSection';
+@import 'scss/Home/homeThreeColumns';
+@import 'scss/Home/homeSimpleSteps';
 
 body {
   font-family: $font-base;
+}
+
+.container {
+  max-width: 768px;
 }
