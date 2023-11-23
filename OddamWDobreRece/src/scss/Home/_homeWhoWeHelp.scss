@@ -24,6 +24,7 @@
         margin-bottom: 20px;
 
         button {
+            font-family: $font-base;
             width: 150px;
             border: 2px solid transparent;
             background-color: white;
@@ -54,19 +55,53 @@
                 justify-content: center;
                 align-items: center;
 
-                div{
-                    width: 80%;
+                &__element{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 80vW;
+
+                    color: $grey;
+                    font-family: $font-alt;
+
+                    border-bottom: 1px solid $darkerGray;
+
+                    margin-top: 20px;
+                    padding-bottom: 20px;
+
+                    &:nth-child(3) {
+                        border-bottom: 1px solid transparent;
+                    }
 
                     div {
-                        border-bottom: 1 solid $darkerGray;
                         h2 {
                             font-size: 2rem;
+                            font-weight: 100;
                         }
+
+                        p {
+                            font-style: italic;
+                        }
+                    }
+
+                    &__p {
+                        font-weight: lighter;
                     }
                 }
             }
             .pagination__btn__holder {
+                button {
+                    font-family: $font-base;
+                    font-size: large;
+                    width: 50px;
+                    height: 50px;
+                    border: 2px solid transparent;
+                    background-color: white;
 
+                    &:hover {
+                        border-color: $grey;
+                    }
+                }
             }
     }
 }
