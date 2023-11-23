@@ -1,0 +1,39 @@
+.about__us {
+    display: flex;
+
+    .left__side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .decoration {
+            width: 30%;
+        }
+
+        p {
+            margin: 20px 50px;
+            text-align: center;
+        }
+
+        .signature {
+            width: 20%;
+            align-self: flex-end;
+            margin-right: 50px;
+        }
+
+    }
+
+    .right__side {
+        width: 50%;
+        img {
+            width: 50vw;
+        }
+    }
+}

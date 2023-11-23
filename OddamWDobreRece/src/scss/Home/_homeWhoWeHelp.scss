@@ -1,0 +1,72 @@
+.who__we__help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 2rem;
+        margin: 50px 0 20px 0;
+    }
+    
+    img {
+        width: 20%;
+        margin-bottom: 20px;
+    }
+
+    .btnHolder {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+
+        gap: 20px;
+
+        margin-bottom: 20px;
+
+        button {
+            width: 150px;
+            border: 2px solid transparent;
+            background-color: white;
+
+            padding: 15px 30px;
+
+            &:hover {
+                border-color: gray;
+            }
+        }
+    }
+    
+    .desc__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .desc__container__dec {
+            text-align: center;
+            width: 60%;
+            margin-bottom: 20px;
+        }
+
+            .desc__container__holder {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                div{
+                    width: 80%;
+
+                    div {
+                        border-bottom: 1 solid $darkerGray;
+                        h2 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+            .pagination__btn__holder {
+
+            }
+    }
+}
