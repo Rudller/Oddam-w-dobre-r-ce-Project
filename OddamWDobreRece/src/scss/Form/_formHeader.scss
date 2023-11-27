@@ -1,0 +1,63 @@
+.form__header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 20px 50px 0 0;
+
+    position: relative;
+    z-index: 1;
+
+    .login__signin__container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+
+        .username {
+            color: $grey;
+            padding: 10px;
+            font-weight: bold;
+            font-size: small;
+        }
+
+        .elementOR {
+            padding: 10px;
+            font-size: small;
+            font-weight: bold;
+            border: 1px solid $yellow;
+        }
+
+        .element {
+            color: $grey;
+            padding: 10px;
+            font-size: small;
+            text-decoration: none;
+            border: 1px solid transparent;
+
+            &:hover {
+                border-color: $yellow;
+            }
+        }
+    }
+
+    .nav__container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+
+        .navElement {
+            display: inline-block;
+            font-weight: 500;
+            color: $darkerGray;
+            text-decoration: none;
+            padding: .7rem 10px;
+            border: 1px solid transparent;
+
+            &:hover {
+                border-color: $darkerGray;
+                cursor: pointer;
+            }
+        }
+    }
+}
+

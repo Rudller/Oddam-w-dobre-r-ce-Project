@@ -9,9 +9,18 @@
 @import 'scss/Home/homeSimpleSteps';
 @import 'scss/Home/homeAboutUs';
 @import 'scss/Home/homeWhoWeHelp';
+@import 'scss/Home/homeContact';
+
+@import 'scss/Login/Login.scss';
+@import 'scss/Login/register';
+@import 'scss/Login/logout';
+
+@import 'scss/Form/formHeader';
+@import 'scss/Form/formMainSection';
 
 body {
   font-family: $font-base;
+  overflow-x: hidden;
 }
 
 .container {

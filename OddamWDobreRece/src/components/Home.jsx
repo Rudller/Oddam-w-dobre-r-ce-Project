@@ -1,4 +1,5 @@
 import HomeAboutUs from "./HomeAboutUs";
+import HomeContact from "./HomeContact";
 import HomeHeader from "./HomeHeader";
 import HomeMainSection from "./HomeMainSection";
 import HomeSimpleSteps from "./HomeSimpleSteps";
@@ -14,6 +15,7 @@ export default function Home () {
         <HomeSimpleSteps />
         <HomeAboutUs />
         <HomeWhoWeHelp />
+        <HomeContact />
         </>
     )
 }

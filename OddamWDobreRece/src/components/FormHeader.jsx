@@ -1,14 +1,16 @@
-import { Link as LinkScroll } from "react-scroll"
+import { useState } from "react"
 import { Link as LinkRouter } from "react-router-dom"
+import { Link as LinkScroll } from "react-scroll"
 
-export default function HomeHeader () {
-
+export default function FormHeader() {
+    const [userEmail, setUserEmail] = useState('john@doe.com')
 
     return (
-        <div id="homeHeader" className="header__container">
+        <div id="formHeader" className="form__header__container">
             <div className="login__signin__container">
-                <LinkRouter to='/logowanie' className="element">Zaloguj</LinkRouter>
-                <LinkRouter to='/rejestracja' className="element">Załóż konto</LinkRouter>
+                <p className="username">Cześć {userEmail}</p>
+                <div className="elementOR">Oddaj rzeczy</div>
+                <LinkRouter to='/Wyloguj' className="element">Wyloguj</LinkRouter>
             </div>
             <div className="nav__container">
                 <LinkScroll to='homeHeader' smooth={true} duration={500} className="navElement">Start</LinkScroll>
